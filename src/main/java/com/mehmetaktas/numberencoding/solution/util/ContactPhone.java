@@ -4,21 +4,21 @@ public class ContactPhone {
 	
 	private String originalNumber;
 	private String formattedNumber;
-	public ContactPhone(String originalName, String formattedName) { 
-		this.originalNumber = originalName;
-		this.formattedNumber = formattedName;
+	public ContactPhone(String originalNumber, String formattedNumber) { 
+		this.originalNumber = originalNumber;
+		this.formattedNumber = formattedNumber;
 	}
-	public String getOriginalName() {
+	public String getOriginalNumber() {
 		return originalNumber;
 	}
-	public void setOriginalName(String originalName) {
-		this.originalNumber = originalName;
+	public void setOriginalNumber(String originalNumber) {
+		this.originalNumber = originalNumber;
 	}
-	public String getFormattedName() {
+	public String getFormattedNumber() {
 		return formattedNumber;
 	}
-	public void setFormattedName(String formattedName) {
-		this.formattedNumber = formattedName;
+	public void setFormattedNumber(String formattedNumber) {
+		this.formattedNumber = formattedNumber;
 	}
 	
 	

@@ -1,16 +1,11 @@
 package com.mehmetaktas.numberencoding.solution.util;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
 public class NumberEncodingConstant {
 	public static final int MAX_ALLOWED_PHONE_NUMBER_LENGTH = 50 ;
-	static {
-		
-	}
+	public static final String PATTERN_TWO_SUBSEQUENT_DIGITS= ".*[0-9]{2}.*";
+	public static final String PATTERN_ONLY_DIGITS= "\\d";
+	
 	public static final String CHAR_SET_REGEX_0 = 
 		     "(E|e)";
 	public static final String CHAR_SET_REGEX_1 = 

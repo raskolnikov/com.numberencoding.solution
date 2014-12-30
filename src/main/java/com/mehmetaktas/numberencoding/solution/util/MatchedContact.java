@@ -5,6 +5,12 @@ public class MatchedContact {
 	private ContactPhone contactPhone;
 	private String contactCombinedName;
 
+	public MatchedContact(ContactPhone contactPhone,
+			String contactCombinedName) {
+		this.contactCombinedName = contactCombinedName ;
+		this.contactPhone = contactPhone ;
+	}
+
 	public ContactPhone getContactPhone() {
 		return contactPhone;
 	}
